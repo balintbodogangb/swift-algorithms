@@ -12,6 +12,6 @@ Pod::Spec.new do |s|
   s.cocoapods_version = '>= 1.5.0'
 
   s.subspec "Core" do |ss|
-    ss.source_files  = "Source/Algorithms/**/*.swift"
+    ss.source_files  = "Sources/Algorithms/**/*.swift"
   end
 end
